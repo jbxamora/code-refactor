@@ -5,10 +5,13 @@
 This is a refactor of the Horiseon Webpage to follow accessability standards. This refactor also optimizes the webpage for search engines. Through this repo you can view changes made to the website that make it more accessible to readers. 
 
 ### User Story
+```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
+```
 ### Acceptance Criteria
+```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -20,6 +23,7 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+```
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -86,6 +90,10 @@ Although it is an extremely simple fix, I beleive this change will make the webs
 
 ```html
 <h2>Cost Management</h2>
+
+Another small but noticable change was the Title element for the website. This lets readers know what webpage is behind the tab.
+
+![TABTITLE](assets/images/tabtitle.png)
 
 Lastly in HTML there was a bug that caused one of the links to break. Users would not be able to click the link and have it direct them to the correct article on the webpage. 
 
