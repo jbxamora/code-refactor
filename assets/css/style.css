@@ -1,3 +1,5 @@
+/* Styles that cover the whole page*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Header Properties*/
 
 .header {
     padding: 20px;
@@ -23,6 +27,15 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Added Hover Feature To 'SEO' to make color change more noticeable." */
+
+.header h1 .seo:hover {
+    color: black;
+    transition: all .7s linear;
+}
+
+/*Nav Bar Properties*/
 
 .header nav {
     position:relative;
@@ -51,7 +64,9 @@ p {
     font-size: 16px;
 }
 
-//* VVV THIS IS THE BACKROUND IMAGE DO NOT TOUCH VVV */
+/*Main Properties */
+
+/* TOP IMAGE */
 
 .hero {
     height: 800px;
@@ -72,14 +87,19 @@ p {
     margin-left: 25px;
 } 
 
+/* Content Properties in Main */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Benefit Overview On SideBar*/ 
+
+aside.benefits {
     margin-right: 20px;
+    margin-left: auto;
     padding: 20px;
     clear: both;
     float: right;
@@ -88,14 +108,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-//* GOT RID OF REDUNDENT CSS. CONTAINED ALL ID/CLASS VALUES TOGETHER */
+/* Description Of Benefits */
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+.benefit-lead h2, .benefit-brand h2, .benefit-cost h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -123,6 +143,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer Properties */
 
 .footer {
     padding: 30px;
