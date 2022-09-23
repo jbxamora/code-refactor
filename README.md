@@ -36,7 +36,7 @@ THEN I find a concise, descriptive title
 ## Installation
 No need to install applications to view the changes made. You can view the webpage by visitng the link below. 
 
-[View Webpage](https://jbxamora.github.io/code-refactor/)
+[View Webpage](https://jbxamora.github.io/code-refactorizationinator/)
 
 ## Usage
 
