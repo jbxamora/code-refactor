@@ -1,5 +1,39 @@
 # Code Refactor
 
+## Description
+
+This is a refactor of the Horiseon Webpage to follow accessability standards. This refactor also optimizes the webpage for search engines. 
+
+## Table of Contents
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
+*[Badges](#badges)
+*[Features](#features)
+*[Contributing](#contributing)
+
+## Installation
+No need to install applications to view the changes made. You can view the webpage by visitng the link below. 
+
+[View Webpage](https://jbxamora.github.io/code-refactor/)
+
+## Usage
+
+While there are no noticable changes here are some things you want to look out for.
+### Accessability
+#### NavBar 
+
+A NavBar Implemented into the website so that users are able to quickly jump from section to section.
+
+![Picture of Nav bar](assets/images/navbar.png)
+
+#### Keyboard Accessability 
+One of the accessability standards goes over users main source of browsing a webpage being a keyboard. 
+Using the tab button on you keyboard you can navigate throughout the webpage. 
+
+![NavBar Tab Access](assets/images/navbartab.png)
+
+
 
 
 
@@ -63,10 +97,19 @@ redundant code
 }
 '''
 
+fixed broken link
+
+'''html
+ <div class="search-engine-optimization">'
+ '''
+ 
+ <section id="search-engine-optimization" class="search-engine-optimization">'
+
 
 
 badges 
 Follow Me
-https://img.shields.io/github/followers/jbxamora?label=JBXAMORA&logoColor=%23fd2423&style=social
+![badmath](https://img.shields.io/github/followers/jbxamora?label=JBXAMORA&logoColor=%23fd2423&style=social)
+
 license
-https://img.shields.io/github/license/jbxamora/code-refactor
+![badmath](https://img.shields.io/github/license/jbxamora/code-refactor)
